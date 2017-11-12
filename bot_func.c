@@ -336,7 +336,6 @@ void InitializeBot (edict_t *ent,int botindex )
 	gclient_t	*client;
 	char		pinfo[200];
 	int			index;
-	int			i;
 
 	index = ent-g_edicts-1;
 	ent->client = &game.clients[index];

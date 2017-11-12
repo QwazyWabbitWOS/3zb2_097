@@ -468,8 +468,6 @@ Advances the world by 0.1 seconds
 ================
 */
 
-void G_InitEdict (edict_t *e);
-
 void G_RunFrame (void)
 {
 	int		i,j;
@@ -479,7 +477,6 @@ void G_RunFrame (void)
 
 	vec3_t	v,vv;
 	qboolean haveflag;
-	gitem_t	*item;
 
 	level.framenum++;
 	level.time = level.framenum*FRAMETIME;
